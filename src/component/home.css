@@ -1,0 +1,7 @@
+.carousel-item img {
+    height: 500px;
+    margin: 0%;
+    background-color: blue;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}

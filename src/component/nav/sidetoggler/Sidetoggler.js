@@ -19,7 +19,7 @@ const SideDrawer = props => {
         style = {
             { textDecoration: "none" }
         } > Club < /Link > < /li > <
-        li > < Link to = "/"
+        li > < Link to = "/events"
         style = {
             { textDecoration: "none" }
         } > Events < /Link></li >

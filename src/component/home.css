@@ -1,7 +1,93 @@
 .carousel-item img {
     height: 500px;
     margin: 0%;
-    background-color: blue;
+    background-color: black;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
+}
+
+.detailf {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+hr {
+    padding: 0%;
+    border: 0;
+    border-top: 1px solid;
+    margin: 0%;
+}
+
+.About {
+    padding: 30px;
+}
+
+.Abouts {
+    text-align: justify;
+    width: 95%;
+    margin: 0;
+}
+
+.Abouts h4 {
+    color: whitesmoke;
+}
+
+.Abouts p {
+    color: rgb(121, 115, 115);
+}
+
+.categories {
+    margin-left: 0;
+}
+
+.category {
+    padding: 30px;
+    text-align: justify;
+}
+
+.category h4 {
+    color: whitesmoke;
+}
+
+.category a {
+    text-decoration: none;
+    color: rgb(121, 115, 115);
+    text-align: justify;
+}
+
+.category a:hover {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.quick {
+    padding: 30px;
+    text-align: justify;
+    margin-right: 5%;
+}
+
+.quikl h4 {
+    color: whitesmoke;
+}
+
+.quikl a {
+    text-decoration: none;
+    color: rgb(121, 115, 115);
+}
+
+.quikl a:hover {
+    color: white;
+    font-size: 17px;
+}
+
+@media(max-width:960px) {
+    .detailf {
+        flex-direction: column;
+    }
+    .carousel-item img {
+        height: 300px;
+    }
 }

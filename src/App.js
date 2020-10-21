@@ -4,6 +4,7 @@ import SideDrawer from './component/nav/sidetoggler/Sidetoggler';
 import Backdrop from './component/nav/backdrop/Backdrop';
 import Home from './component/Home';
 import Contact from './component/Contact';
+import Event from './component/Event';
 import './index.css';
 import { Route, Switch } from 'react-router-dom';
 class App extends React.Component {
@@ -36,7 +37,10 @@ class App extends React.Component {
             <
             Switch > < Route exact path = '/'
             component = { Home }
-            />    <
+            />   <
+            Route exact path = '/events'
+            component = { Event }
+            />  <
             Route exact path = '/contact'
             component = { Contact }
             /> < /

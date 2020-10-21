@@ -1,6 +1,6 @@
 import React from 'react';
 import './toolbar.css';
-import logo from './logo.png';
+import logo from './logo.jpeg';
 import SideNav from './sidenav/SideNav';
 import { Link } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ const Nav = props => ( <
     style = {
         { textDecoration: "none" }
     } > Club < /Link > < /li > <
-    li > < Link to = "/"
+    li > < Link to = "/events"
     style = {
         { textDecoration: "none" }
     } > Events < /Link></li >

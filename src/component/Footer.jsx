@@ -3,10 +3,10 @@ import './footer.css';
 class Footer extends React.Component {
     render() {
 
-        return ( < >
+        return ( < > < div className = "footer" >
             <
-            p > { '\u00A9' }
-            2020 Copyright.ABES ENGINEERING COLLEGE < /p > < / >
+            p > Eventor { '\u00A9' }
+            2020 Copyright.ABES ENGINEERING COLLEGE < /p ></div > < / >
         );
     }
 };

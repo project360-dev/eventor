@@ -1,5 +1,5 @@
 .toolbar {
-    background-color: rgb(61, 59, 59);
+    background-color: black;
     width: 100%;
     height: 50px;
     top: 0;
@@ -31,18 +31,33 @@ img {
 .toolbar_items ul {
     font-size: 25px;
     list-style: none;
-    padding: 0;
-    margin: 20px;
+    margin: 9px;
+    padding: 0%;
     display: flex;
 }
 
 .toolbar_items li {
-    padding-right: 00.5rem;
+    padding-right: 00.75rem;
 }
 
-.toolbar_items a:hover,
+.toolbar_items a:hover {
+    color: #aaaaaa !important;
+    font-size: 26px;
+    list-style: none;
+}
+
 .toolbar_items a:active {
-    color: #aaaaaa;
+    color: #black;
+    list-style: none;
+}
+
+.toolbar_items a:link {
+    color: white !important;
+    list-style: none;
+}
+
+.toolbar_items li a:focus {
+    color: #aaaaaa !important;
     list-style: none;
 }
 
